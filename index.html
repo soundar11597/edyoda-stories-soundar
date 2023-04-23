@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+
+
+    <title>Edyodastory</title>
+    <style>
+        .bottom-left {
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+            font-weight: 500;
+            font-family: raleway;
+            font-style: italic;
+        }
+
+        .container {
+            position: relative;
+
+        }
+
+        .categories {
+            size: 5px;
+            display: inline-block;
+            border: 1px solid #0084ff;
+            border-radius: 15px;
+            padding: 6px 14px;
+            width: fit-content;
+            color: #0084ff;
+            margin: 5px;
+            cursor: pointer;
+            /* font-family: montserrat; */
+
+
+        }
+
+        .selected {
+            display: inline-block;
+            border: 1px solid;
+            background-color: #0084ff;
+            border-radius: 15px;
+            padding: 6px 14px;
+            width: auto;
+            color: #fff;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        .author {
+            color: #0096ff;
+            size: 14px;
+            font-style: italic;
+            font-weight: 500;
+            display: inline-block;
+            margin-top: 0;
+            padding-left: 8px;
+        }
+
+        .date {
+            display: inline-block;
+            color: rgba(0, 0, 0, 0.7);
+            size: 14px;
+
+        }
+
+        .image {
+            width: 280px;
+            height: 200px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+
+        .item {
+            display: inline-block;
+            height: 350px;
+            margin-top: 20px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            background-color: #fff;
+        }
+
+        .twothree {
+            margin-left: 15px;
+        }
+
+        .text {
+            margin: 4px;
+            font-size: 12px;
+            font-weight: 200;
+            color: rgba(0, 0, 0, 0.6);
+        }
+
+        .title {
+            size: 18px;
+            padding-left: 4px;
+            margin: 0;
+            font-weight: 600;
+        }
+
+        p {
+            font-family: raleway;
+
+        }
+    </style>
+</head>
+
+<body style="background-color: #f2f6ff;">
+    <header style="background-color: #fff;">
+        <div class="container">
+            <img src="logo.png" alt="Edyoda logo" style="width: 130px;">
+            <p
+                style="display: inline-block;color: #000;margin-top: 0; padding-left: 50px; font-family: raleway;font-weight: bold;">
+                Explore Categories</p>
+            <i class="fa-sharp fa-solid fa-caret-down"></i> 
+        </div>
+    </header>
+    <div style="margin-left: 170px; margin-right: 100px;">
+        <div>
+            <p style="font-weight: 600;font-size: 36px;color: #000;">Trending Posts</p>
+            <i class="fas fa-filter" style="color: #1d5dc3;"></i>
+            <p style="size: 14px;font-weight: 400;margin-left: 8px;display: inline-block; margin-top: 0;">Filter By
+                Category
+            </p>
+        </div>
+        <div>
+            <div class="selected">All</div>
+            <div class="categories">Artificial Intelligence</div>
+            <div class="categories">Cloud Computing</div>
+            <div class="categories">DevOps</div>
+            <div class="categories">Programming Languages</div>
+            <div class="categories">Mobile Application Development</div>
+            <div class="categories">Technology and Tools</div>
+            <div class="categories">Get a Job in Tech Company</div>
+            <div class="categories">Others</div>
+        </div>
+
+        <div>
+            <div class="item" style="width: 280px; margin-top: 20px;">
+                <img class="image" src="big data analytics.png" alt="">
+                <div>
+                    <p><span class="title">Challenges of Machine Learning</span> <br><span class="author">EdYoda</span>
+                        <span class="date">| 24 Aug
+                            2019</span>
+                    </p>
+                    <p class="text">
+                        Machine Learning is a subject of atificial intelligence which is an important part of
+                        Computer
+                        science.
+                    </p>
+                </div>
+
+            </div>
+            <div class="item twothree" style="width: 280px; margin-top:0;">
+                <img class="image" src="cloud computing.png" alt="">
+                <div>
+                    <p><span class="title">Impact of Cloud Computing<br></span> <span class="author">EdYoda</span> <span
+                            class="date">| 24 Aug
+                            2019</span></p>
+                    <p class="text">Cloud Computing has been rapidly gaining pace in the world of information
+                        technology and in every organization.</p>
+                </div>
+            </div>
+            <div class="item twothree" style="width: 280px;">
+                <img class="image" src="cyber security.png" alt="">
+                <div>
+                    <p><span class="title">Myths around Cybersecurity</span><br><span class="author">EdYoda</span> <span
+                            class="date">| 24
+                            Aug
+                            2019</span></p>
+                    <p class="text">Cybersecurity plays an integral role in the process of good business models. But
+                        even
+                        cybersecurity programs built with....</p>
+                </div>
+            </div>
+            <div class="item" style="width: 280px;">
+                <img class="image" src="data backup and recovery.png" alt="">
+                <div>
+                    <p><span class="title">Importance of Data Backup</span><br><span class="author">EdYoda</span> <span
+                            class="date">| 24
+                            Aug
+                            2019</span></p>
+                    <p class="text">Backup is the process of storing copies of data that is confidential to
+                        the
+                        organization when the data losses. </p>
+                </div>
+            </div>
+            <div class="item twothree" style="width: 280px;">
+                <img class="image" src="machine learning.png" alt="">
+                <div>
+                    <p><span class="title">Introduction to A Machine Learning <br></span><span
+                            class="author">EdYoda</span>
+                        <span class="date">| 24 Aug
+                            2019</span>
+                    </p>
+                    <p class="text">We have had an insight into Artificial Intelligence. Well, one of its subfields is
+                        machine learning and this introduction...</p>
+
+                </div>
+
+            </div>
+            <div class="item twothree" style="width: 280px;">
+                <img class="image" src="practical meachine learning.png" alt="">
+                <div>
+                    <p><span class="title">Practical ML with Python<br></span> <span class="author">EdYoda</span> <span
+                            class="date">| 24 Aug
+                            2019</span></p>
+                    <p class="text">Machine learning is a field of AI that uses statistical
+                        techniques
+                        to give computer systems the ability to “learn”.</p>
+                </div>
+
+            </div>
+            <div class="item" style="width: 280px;">
+                <img class="image" src="lamp stack vs mean stack.png" alt="">
+                <div>
+                    <p><span class="title">LAMP Stack vs MEAN Stack</span><br><span class="author">EdYoda</span> <span
+                            class="date">| 24
+                            Aug
+                            2019</span></p>
+                    <p class="text">In today’s dynamic world, rapid web application development with a smooth user
+                        interface
+                        that can adapt...</p>
+                </div>
+            </div>
+            <div class="item twothree" style="width: 280px;">
+                <img class="image" src="income ahare aggrement.png" alt="">
+                <div>
+                    <p><span class="title">What is Income Share Agreement</span><br><span class="author">EdYoda</span>
+                        <span class="date">| 24 Aug
+                            2019</span>
+                    </p>
+                    <p class="text">The term Income Share Agreement has been around for a long time since 1955 to be
+                        precise. it was introduced by Milton Friedman</p>
+
+                </div>
+            </div>
+            <div class="item twothree" style="width: 280px;">
+                <img class="image" src="web scraping.png" alt="">
+                <div>
+                    <p><span class="title">What is Web Scrapping?</span><br><span class="author">EdYoda</span> <span
+                            class="date">| 24
+                            Aug
+                            2019</span></p>
+                    <p class="text">Simply put, web scraping is one of the tools developers use to gather and analyze
+                        information from the Internet.</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <footer style="background-color: #172146; height: 65.7px;margin-top: 50px;">
+
+    </footer>
+
+
+
+
+</body>
+
+</html>
